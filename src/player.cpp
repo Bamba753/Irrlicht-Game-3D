@@ -1,6 +1,5 @@
 #include "player.hpp"
 
-Player::t = 0;
 
 Player::Player(ISceneManager& smgr, IVideoDriver& driver, ITriangleSelector& selector, SMaterial& material)
 {
@@ -21,6 +20,7 @@ void Player::initVariables()
 	this->nodePlayer = nullptr;
 	this->meshPlayer = nullptr;
 	this->param = 0;
+    this->t = 0;
 	//playerMaterial = 0;
 }
 
@@ -124,19 +124,19 @@ void Player::targetGun(IVideoDriver& driver,Camera& camera, SMaterial& material)
 void Player::notMovingMovement()
 {
 	this->param++;
-    // float f = 1 - exp(-0.01*this->u);
+    float f = 1 - exp(-0.01*this->t);
     // std::cout << f << std::endl;
 	this->nodePlayer->setPosition(this->posIni + core::vector3df (0, 0.1, 0)* sin(this->param *3* PI/180));
 	if (this->param == 360) this->param = 0;
-    t--;
+    this->t = 0;
 }
 
 void Player::targetMovement()
 {
-    float f = 1 - exp(-0.01*t);
-    
+    float f = 1 - exp(-0.01*this->t);
+    std::cout << t <<" " << f << std::endl;
     this->nodePlayer->setPosition(this->nodePlayer->getPosition()*(1-f) + f*core::vector3df (1, -30, 50));
-    t++;
+    this->t++;
 }
 
 void Player::updateState(MyEventReceiver& receiver)

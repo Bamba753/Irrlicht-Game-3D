@@ -73,7 +73,6 @@ void Game::initPlayer()
 {
 	
 	this->player = new Player(*this->smgr,*this->driver, *this->selector, this->material);
-	Player::t = 0;
 	this->device->getCursorControl()->setVisible(false);        
 	//this->material.setTexture(0, 0);
     //this->material.Lighting = false;

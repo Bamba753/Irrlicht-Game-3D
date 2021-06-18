@@ -23,9 +23,9 @@ class Player
     ISceneCollisionManager* collMan;
     playerState currentState;
     int param;
+    int t;
     vector3df posIni;
 
-    static int t;
 
 	// FOnctions privees
 	void initVariables();
