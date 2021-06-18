@@ -1,0 +1,62 @@
+release date: 12.08.2005
+Quake3Arena Tourney level.
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+title:            necro6 [Story to tell]
+file:             necro6.pk3
+author:           NecrosiS 
+email address:    necrosis@quake3.fpp.pl | necrosis666@o2.pl 
+URL:              http://hosting.fpp.pl/necrosis/
+		  http://www.maposfera.org 
+		  http://q3.fpp.pl  
+		  
+		  	
+description:      q3 map for tourney .
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+play information
+
+tourney:          Yes 
+deathmatch:       Yes
+team deathmatch:  Yes
+CTF:              no
+Bot File (aas):   yes
+other:            no
+new sounds:       no
+new graphics:     Yes (textures by Sock)
+new music:        no
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+construction
+
+editor:         gtkRadiant 1.2.11 by Id Software
+
+know bugs:      none
+build time:     one week
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+thanx to:
+
+ Berto (www.armatrox.net)
+ Lukin 
+ StormShadow
+ Twisted
+ Chi
+ Todtsteltzer
+ Finko
+ cUnNiNg_StUnTs
+ zorius
+ thefury
+
+ Members of Burial Grounds       (www.burial-grounds.com)
+            Levelsource          (www.levelsource.com)
+            Maposfera            (www.maposfera.org)
+            Org's beta corner    (www.quake3.imro.pl)
+            ..::LvL beta section (www.http://lvlworld.com/)
+ 
+ All others beta testers :)
+ Sock for His awesome textures (http://www.planetquake.com/simland)
+
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
